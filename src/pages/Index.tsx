@@ -6,7 +6,7 @@ const Index: React.FC = () => {
   const [isProcessing, setIsProcessing] = useState(false);
 
   const steps: [string, string, string] = [
-    "Sube o arrastra una imagen con texto",
+    "Sube una imagen con texto",
     "Espera mientras procesamos la imagen",
     "Obtén el texto extraído listo para copiar",
   ];
@@ -14,7 +14,6 @@ const Index: React.FC = () => {
   const copyToClipboard = async () => {
     try {
       await navigator.clipboard.writeText(extractedText);
-      alert('Texto copiado al portapapeles');
     } catch (err) {
       console.error('Error al copiar:', err);
     }
