@@ -2,7 +2,7 @@
 
 Es la interfaz web del sistema **Textractor**. Está construida con tecnologías modernas como **TypeScript**, **Vite**, **React**, **React Router** y **TailwindCSS**, ofreciendo una experiencia rápida, responsiva y fácil de mantener.
 
-Este frontend se conecta al backend desarrollado en Django REST Framework para permitir subir imágenes y visualizar los resultados del reconocimiento de texto y exportarlos.
+Este frontend se conecta la API de Tesseract  para permitir visualizar los resultados del reconocimiento de texto y exportarlos.
 
 ---
 
